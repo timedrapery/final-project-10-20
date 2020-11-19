@@ -1,9 +1,9 @@
 // All JS goes here...
 
-// let today = new Date();
-// let formatDate = today.toDateString();
-// let selectElement = document.getElementById('date');
-// selectElement.innerHTML = formatDate;
+let today = new Date();
+let formatDate = today.toDateString();
+let selectElement = document.getElementById('date');
+selectElement.innerHTML = formatDate;
 
 var addButton = document.getElementById("add-button");
 addButton.addEventListener("click", addAssignmentItem);
