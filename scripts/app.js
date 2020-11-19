@@ -76,6 +76,7 @@ var myArray = [];
 myArray.push("List stored!");
 myArray.push("Something else to store");
 alert(myArray[0]);
+//This will alert "List stored!" and "Something else to store"
 
 var assignmentInfo = {
     task: "Thing I need to do",

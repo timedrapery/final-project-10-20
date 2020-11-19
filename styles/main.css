@@ -16,13 +16,15 @@
  }
 
  .assignment-wrapper h2 {
-     margin: 0;
+    margin: 5px 0;
+    text-decoration: underline overline;
+    text-shadow: 4px 4px 5px #666;
  }
 
  .assignment-wrapper p {
-     font-style: italic;
-     color: #666;
-     margin: 5px 0;
+    color: #666;
+    font-style: italic;
+    margin: 5px 0;
  }
 
  .assignment-wrapper ol {
@@ -36,7 +38,9 @@
      -moz-user-select: none;
      -ms-user-select: none;
      user-select: none;
-     -webkit-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
      transition: all 0.5s ease-out;
  }
 
