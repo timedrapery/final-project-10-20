@@ -99,10 +99,12 @@ function saveList() {
 function loadList() {
     if (localStorage.getItem("assignments") !== null) {
         var assignments = JSON.parse(localStorage.getItem("assignments"));
+
         for (var i = 0; i < assignments.length; i++) {
             var assignment = assignments[i];
             newAssignmentItem(assignment.task, assignment.completed);
-            loadList();
         }
     }
 }
+
+loadList();
