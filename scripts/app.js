@@ -13,7 +13,7 @@ function addAssignmentItem() {
 
 var clearButton = document.getElementById("clear-completed-button");
 clearButton.addEventListener("click", clearCompletedAssignmentItems);
-function clearCompletedToDoItems() {
+function clearCompletedAssignmentItems() {
     alert("Clear button clicked!");
 }
 
@@ -74,16 +74,16 @@ function emptyList() {
 
 var myArray = [];
 myArray.push("List stored!");
-myArray.push("something else to store");
+myArray.push("Something else to store");
 alert(myArray[0]);
 
-var toDoInfo = {
+var assignmentInfo = {
     task: "Thing I need to do",
     completed: false
 };
 
 function saveList() {
-    var toDos = [];
+    var assignments = [];
     for (var i = 0; i < assignmentList.children.length; i++) {
         var assignment = assignmentList.children.item(i);
         var assignmentInfo = {
