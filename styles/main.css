@@ -5,8 +5,9 @@ body {
 
 h1 {
     margin: 5px 0;
+    font-size: 36px;
+    font-weight: bold;
     text-decoration: underline overline;
-    text-shadow: 4px 4px 5px #666;
 }
 
 #date {
@@ -26,13 +27,13 @@ h1 {
 }
 
 .assignment-wrapper h2 {
-    margin: 5px 0;
+    margin: 0;
     text-decoration: underline overline;
-    text-shadow: 4px 4px 5px #666;
+    text-shadow: 4px 4px 5px #666666;
 }
 
 .assignment-wrapper p {
-    color: #666;
+    color: #666666;
     font-style: italic;
     margin: 5px 0;
 }
@@ -55,12 +56,12 @@ h1 {
 }
 
 .assignment-wrapper ol li:nth-child(even) {
-    background: #ddd;
+    background: #ffffff;
 }
 
 .assignment-wrapper .completed {
     text-decoration: line-through;
-    color: #666;
+    color: #ffffff;
 }
 
 .assignment-wrapper .pretty-button {
@@ -111,35 +112,17 @@ h1 {
     .assignment-wrapper {
         width: 50%;
     }
-
     .assignment-wrapper input {
         width: 600px;
     }
-
 }
 
 @media only screen and (max-width: 1399px) and (min-width: 750px) {
     .assignment-wrapper {
         width: 75%;
     }
-
     .assignment-wrapper input {
         width: 400px;
     }
-}
 
-body {
-    font-family: helvetica;
-}
-
-ul {
-    font-family: monospace;
-}
-
-li {
-    list-style: circle;
-}
-
-.list {
-    list-style: square;
 }
